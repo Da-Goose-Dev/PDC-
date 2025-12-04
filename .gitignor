@@ -1,0 +1,43 @@
+# -------------------------
+# Ignore runtime directories
+# (keep folders, ignore contents)
+# -------------------------
+
+/dnc_lists/**
+/input/**
+/logs/**
+/output/**
+
+# Keep the folders themselves
+!/dnc_lists/
+!/input/
+!/logs/
+!/output/
+
+# Allow .gitkeep placeholders if you use them
+!/dnc_lists/.gitkeep
+!/input/.gitkeep
+!/logs/.gitkeep
+!/output/.gitkeep
+!/output/**/.gitkeep
+
+# -------------------------
+# Python stuff
+# -------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+env/
+
+# -------------------------
+# Misc temp / OS junk
+# -------------------------
+*.tmp
+*.log
+*.bak
+*.swp
+.DS_Store
+Thumbs.db

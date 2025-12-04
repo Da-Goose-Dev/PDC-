@@ -1,0 +1,11 @@
+{
+  "output_format": "ods",
+  "duplicate_by_phone": true,
+  "duplicate_by_name_postcode": true,
+  "duplicate_by_address_postcode": true,
+  "normalise_names": true,
+  "normalise_postcodes": true,
+  "normalise_addresses": true,
+  "no_phone_behavior": "invalid",
+  "merge_notes": true
+}
