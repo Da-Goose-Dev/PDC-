@@ -21,7 +21,7 @@ This script:
 
 Everything is designed to be:
 
-- Portable (run from a USB with WinPython)
+- Portable (run from a USB with embedded python)
 - Transparent (no data silently thrown away)
 - Auditable (reports + logs + duplicate/archive files)
 """
